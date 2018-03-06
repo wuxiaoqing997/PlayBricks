@@ -7,7 +7,7 @@ class SceneEnd extends mainScene {
 		})
 	}
 	draw() {
-		this.game.context.fillText('Game Over , Press r restart!', 200, 200)
+		this.game.context.fillText('游戏结束，按r回到首页！', 200, 200)
 	}
 	update() {}
 

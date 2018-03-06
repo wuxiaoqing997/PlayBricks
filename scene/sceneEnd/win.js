@@ -7,7 +7,7 @@ class Win extends mainScene {
 		})
 	}
 	draw() {
-		this.game.context.fillText(' You win ! Press r to restart!', 200, 200)
+		this.game.context.fillText('你赢了！按r开始新的游戏！', 200, 200)
 	}
 	update() {}
 
